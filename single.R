@@ -9,7 +9,7 @@ if (!"viridis" %in% installed.packages()) install.packages("viridis")
 if (!"devtools" %in% installed.packages()) install.packages("devtools")
 #if (!"patternize" %in% installed.packages()) install_github("StevenVB12/patternize")
 #if (!"patternize" %in% installed.packages()) install('patternize-modified')
-if (!"patternize" %in% installed.packages()) install_github("WingZHG/patternize")
+if (!"patternize" %in% installed.packages()) install_github("WingZHG/patternize-m")
 
 library("rstudioapi")
 library("tidyverse")
